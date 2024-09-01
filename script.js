@@ -9,10 +9,10 @@ const currencySelect = document.querySelector(".currency-select")
     //AXIOS = Bibliotecas a ser utilizada
     const data =  await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then( response => response.json())
 
-    const dolarToday = data.USDBLR.higt
+    const dolarToday = data.USDBRL.higt
     const euroToday = data.EURBRL.higt
-    const libraToday = data.LIBBRL.higt
-    const bitcoinToday = data.BITBRL.higt
+    const libraToday = data.GBPBRL.higt
+    const bitcoinToday = data.BTCBRL.higt
     console.log(data)
   
 
